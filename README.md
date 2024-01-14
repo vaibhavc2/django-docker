@@ -15,4 +15,5 @@ This helps to setup a Django application in a Docker container. This is the best
 `docker exec -it ---container-ID--- /bin/sh`
 
 => in the docker container: (to create one more project in the same project)
+
 `python manage.py startapp NEW_APPNAME`
